@@ -1,9 +1,8 @@
 ### Entry 1 – Brainstorming Finance Problem
 
 **Artifact:**
-![AI Screenshot](AI-CONVERSATIONS/week8_ai_1.png)
-![AI Screenshot](AI-CONVERSATIONS/week8_ai_2.png)
-
+![AI Screenshot](week8_ai_1.png)
+![AI Screenshot](week8_ai_2.png)
 **Context:**
 I was trying to get AI chat to help me come up with a problem to solve for my Smart Finance Assistant.
 
