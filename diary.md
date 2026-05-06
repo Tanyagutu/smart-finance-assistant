@@ -22,8 +22,10 @@ I learned that AI can generate many ideas quickly, but I need to choose and refi
 ### Entry 2- Defining Inputs and Outputs
 
 **Artifact:**
-![AI Screenshot](AI-CONVERSATIONS/week9_ai_1.png)
-![AI Screenshot](AI-CONVERSATIONS/week9_ai_2.png)
+**Artifact:**
+
+![AI interaction – defining inputs and outputs](AI-CONVERSATIONS/week9_ai_1.png)
+
 
 **Context:**
 I was trying to get AI chat to help me come up with a problem to solve for my Smart Finance Assistant.
