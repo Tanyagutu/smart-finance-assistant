@@ -10,8 +10,8 @@ This project is meant to help students and young adults track their spending hab
 ## Tools & Technologies
 - Python (Google Colab)
 - Pandas (for data analysis)
-- hands-on-ai (for chatbot features – planned)
-- Gradio (for user interface – planned)
+- hands-on-ai (for chatbot features as planned)
+- Gradio (for user interface as planned)
 
   ## Sample Inputs and Outputs
 
