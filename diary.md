@@ -24,8 +24,8 @@ I learned that AI can generate many ideas quickly, but I need to choose and refi
 **Artifact:**
 **Artifact:**
 
-![AI interaction – defining inputs and outputs](AI-CONVERSATIONS/week9_ai_1.png)
-![AI interaction – defining outputs](AI-CONVERSATIONS/week9_ai_2.png)
+![AI Screenshot](week9_ai_1.png)
+![AI Screenshot](week9_ai_2.png)
 
 
 **Context:**
