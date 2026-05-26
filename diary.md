@@ -69,7 +69,7 @@ Although the calculations were correct, some transaction values seemed unrealist
  learned that AI-generated examples may still need adjustment depending on the target audience and project context. Even when calculations are correct, the data should still make sense for the intended users of the system.
  
 
-
+<img width="722" height="369" alt="image" src="https://github.com/user-attachments/assets/a6000fbe-9918-4180-97da-7facdee52824" />
 
 
 
