@@ -69,7 +69,28 @@ Although the calculations were correct, some transaction values seemed unrealist
  learned that AI-generated examples may still need adjustment depending on the target audience and project context. Even when calculations are correct, the data should still make sense for the intended users of the system.
  
 
+
+### Entry 4 – Improving Pseudocode Logic
+
+**Artifact:** 
 <img width="722" height="369" alt="image" src="https://github.com/user-attachments/assets/a6000fbe-9918-4180-97da-7facdee52824" />
 
+**Context:**  
+I was working on the pseudocode section for my Smart Finance Assistant project. I first created a simple version of the pseudocode and then used AI to review and improve it.
+
+**My Initial Pseudocode:**  
+The first version only included basic steps such as reading the CSV file, calculating spending totals, grouping categories, and displaying insights.
+
+**My Prompt:**  
+"Review my pseudocode for analyzing spending data from a CSV. Are there any edge cases I'm missing? What business logic should I add to make this more valuable for personal finance insights?"
+
+**AI Response Summary:**  
+The AI suggested adding validation checks, handling missing or invalid data, cleaning the Amount column, separating refunds from spending, calculating percentages, and identifying unusual expenses.
+
+**My Critique/Improvement:**  
+I used the AI suggestions to improve the pseudocode by adding more detailed financial logic and validation steps. The improved version became more structured and realistic for a finance analysis system.
+
+**Reflection:**  
+I learned that pseudocode is important because it helps organize the program logic before coding begins. I also learned that financial systems require data cleaning and validation to make the analysis more accurate and reliable.
 
 
