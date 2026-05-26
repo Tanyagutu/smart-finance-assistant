@@ -76,21 +76,16 @@ Although the calculations were correct, some transaction values seemed unrealist
 <img width="722" height="369" alt="image" src="https://github.com/user-attachments/assets/a6000fbe-9918-4180-97da-7facdee52824" />
 
 **Context:**  
-I was working on the pseudocode section for my Smart Finance Assistant project. I first created a simple version of the pseudocode and then used AI to review and improve it.
-
-**My Initial Pseudocode:**  
-The first version only included basic steps such as reading the CSV file, calculating spending totals, grouping categories, and displaying insights.
+I was working on the pseudocode for my Smart Finance Assistant project. I first wrote a very simple version, but I felt like it was missing important parts that would make the finance analysis more realistic.
 
 **My Prompt:**  
 "Review my pseudocode for analyzing spending data from a CSV. Are there any edge cases I'm missing? What business logic should I add to make this more valuable for personal finance insights?"
 
 **AI Response Summary:**  
-The AI suggested adding validation checks, handling missing or invalid data, cleaning the Amount column, separating refunds from spending, calculating percentages, and identifying unusual expenses.
+The AI pointed out that my pseudocode was too basic and suggested adding steps like checking for missing columns, cleaning the Amount column, handling refunds, and calculating averages and percentages.
 
 **My Critique/Improvement:**  
-I used the AI suggestions to improve the pseudocode by adding more detailed financial logic and validation steps. The improved version became more structured and realistic for a finance analysis system.
+At first my pseudocode only focused on total spending and categories, but after reviewing the AI feedback I added more detail to make it more realistic. I included validation, refund handling, averages, and checks for unusual expenses.
 
 **Reflection:**  
-I learned that pseudocode is important because it helps organize the program logic before coding begins. I also learned that financial systems require data cleaning and validation to make the analysis more accurate and reliable.
-
-
+This part helped me understand that planning the logic properly before coding is important. I also realized that finance data can be messy, so the program needs steps for cleaning and validating data before calculations are done.
