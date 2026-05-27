@@ -144,7 +144,7 @@ Third, the function filled missing text values with placeholders such as "Unknow
 
 Finally, the function cleaned and validated the data well, but it did not provide a summary showing how many rows were removed or corrected during cleaning.
 
----
+
 
 #### Reflection
 
@@ -236,7 +236,7 @@ In this part, I worked on the `generate_financial_recommendations` function for 
 
 "Based on spending analysis data, create professional financial recommendations. Include specific savings opportunities, spending pattern observations, and actionable advice formatted for a personal finance app user."
 
----
+
 
 #### AI Response Summary
 
@@ -250,7 +250,7 @@ The AI generated a recommendation function that:
 
 The recommendations were generated from the spending summaries and financial analysis results created earlier in the project.
 
----
+
 
 #### My Critique/Improvement
 
@@ -331,6 +331,8 @@ Finally, the earlier version of the chatbot did not include fallback local respo
 
 This part helped me understand how chatbot systems connect with financial analysis systems. I also learned that external AI services can sometimes fail during development, so adding proper error handling and fallback responses is very important for improving reliability and user experience.
 
+
+
 ### Part 5 — Custom Financial Tools
 
 #### Artifact
@@ -360,68 +362,6 @@ In this part, I worked on creating a custom savings calculator tool for my Smart
 "Create a savings goal calculator function that takes current savings, monthly contribution, and target amount, then calculates time to reach goal. Format output for user-friendly display."
 
 
-
-#### AI Response Summary
-
-The AI generated a savings calculator function that:
-- accepted current savings
-- accepted monthly contribution amounts
-- accepted savings targets
-- calculated the remaining amount needed
-- estimated how many months it would take
-- displayed the results in a readable format
-
-The calculator was later added to the financial tools section of the Smart Finance Assistant.
-
-
-#### My Critique/Improvement
-
-The calculator worked well because it checked the inputs, calculated the remaining amount, estimated the number of months needed, and displayed the results clearly.
-
-However, there were still a few things that could be improved.
-
-First, the calculator assumed the user saved the same amount every month. In reality, savings can change depending on expenses or income.
-
-Second, the calculation did not include interest or investment growth, so the estimates may not be fully realistic for long-term savings goals.
-
-Third, the output was mainly plain text. While it was easy to read, I later realised it would need better formatting for the Gradio interface and chatbot integration.
-
-Finally, the tool only calculated the time needed to reach the savings goal. It could also be improved later by suggesting ways to reach the goal faster, such as increasing monthly contributions.
-
-
-#### Reflection
-
-This part helped me understand how financial tools combine calculations and user input to generate useful information. I also realised that even simple financial calculators can become more complicated when trying to make them more realistic and useful for users.
-
-### Part 5 — Custom Financial Tools
-
-#### Artifact
-
-<img width="393" height="207" alt="image" src="https://github.com/user-attachments/assets/9702cba4-ba66-46ff-bf30-dcfcc88a09a5" />
-
-This was the first output:
-
-<img width="454" height="439" alt="image" src="https://github.com/user-attachments/assets/3323d99e-7b74-469f-93d2-7be6311be4ca" />
-
-This was the output after corrections:
-
-<img width="507" height="442" alt="image" src="https://github.com/user-attachments/assets/f67c3173-1c18-41a1-9cac-4aad75358272" />
-
----
-
-#### Context
-
-In this part, I worked on creating a custom savings calculator tool for my Smart Finance Assistant. The purpose of the tool was to help users estimate how long it would take to reach a savings goal based on their current savings and monthly contributions.
-
----
-
-#### My Prompt
-
-🤖 AI Collaboration Prompt:
-
-"Create a savings goal calculator function that takes current savings, monthly contribution, and target amount, then calculates time to reach goal. Format output for user-friendly display."
-
----
 
 #### AI Response Summary
 
@@ -509,7 +449,7 @@ The AI generated a Gradio interface that:
 
 The interface combined the earlier functions into one Smart Finance Assistant application.
 
----
+
 
 #### My Critique/Improvement
 
@@ -530,6 +470,8 @@ Finally, while the layout worked well overall, it could still be improved later 
 #### Reflection
 
 This part helped me understand how frontend interfaces connect with backend Python functions to create a complete application. I also realised that building the interface is not only about making it look good, but also about making the system easier to use and more organised for users.
+
+
 
 ## Entry 6
 
@@ -688,11 +630,45 @@ Third, the RAG and chatbot tests could still depend on fallback responses if the
 
 Finally, the Gradio interface itself was not directly tested, so some user interface problems could still appear later during actual use.
 
----
+
 
 #### Reflection
 
 This part helped me understand how important integration testing is in software development. I also realised that even when individual functions work correctly on their own, problems can still happen when all the different parts of the system are connected together.
+
+## Debugging Sessions
+
+When I finished building the Smart Finance Assistant, I then tried to run the final Gradio interface. However, the chatbot was not working correctly. This happened because the hands-on-ai server configuration I was using had not been updated to the latest version.
+
+I asked AI to help identify the issue, and it suggested updating the hands-on-ai server, model, and API configuration settings.
+
+<img width="516" height="485" alt="image" src="https://github.com/user-attachments/assets/8674a13b-689c-422c-bd32-26bca0ca70a0" />
+
+The RAG section also needed to be fixed. When I tested the interface, the RAG tab was only returning a prototype message instead of giving me the actual results . Since the chatbot server setup had changed, the retrieval system also needed additional debugging and integration fixes.
+
+AI suggested a simplified RAG code :
+
+<img width="488" height="427" alt="image" src="https://github.com/user-attachments/assets/463093c7-c967-4ad9-8048-31d4bc999e2c" />
+
+<img width="493" height="475" alt="image" src="https://github.com/user-attachments/assets/6cea9f09-3dae-410b-8a77-981e794b45ef" />
+
+After updating the server configuration and rerunning the notebook cells in the correct order, I used the following code to reconnect and relaunch the final Smart Finance Assistant interface.
+
+<img width="507" height="430" alt="image" src="https://github.com/user-attachments/assets/720a7b1f-94e8-4275-a4f8-085612bfd4ee" />
+
+<img width="502" height="424" alt="image" src="https://github.com/user-attachments/assets/4ad5a56d-5fd3-4420-8d53-d7b265c8eea8" />
+
+<img width="499" height="427" alt="image" src="https://github.com/user-attachments/assets/574fe1c1-e71c-4c71-ac50-7ba2de0f3e30" />
+
+<img width="469" height="486" alt="image" src="https://github.com/user-attachments/assets/3681147e-4eb7-4b55-a9c0-d59105e9d168" />
+
+<img width="467" height="434" alt="image" src="https://github.com/user-attachments/assets/f01e23db-b798-40d4-88e2-657798376efd" />
+
+After the interface was working successfully, I uploaded a CSV file containing sample transaction data that I used throughout this assignment for spending analysis and financial recommendations.
+
+<img width="749" height="407" alt="image" src="https://github.com/user-attachments/assets/c1cb5d91-3d01-4592-8b14-2dda928b198d" />
+
+
 
 
 
