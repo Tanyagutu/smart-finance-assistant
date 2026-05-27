@@ -1,26 +1,31 @@
 Date,Amount,Category,Description
-2024-08-01,$45.50,Groceries,Woolworths Weekly Shop
-2024-08-02,$12.00,Transport,Opal Card Top-up
-2024-08-03,$89.95,Entertainment,Concert Tickets - Enmore Theatre
-2024-08-04,$3.50,Coffee,Campus Cafe Flat White
-2024-08-05,$120.00,Groceries,Coles Weekly Shop
-2024-08-06,-$25.00,Refund,Returned Textbook - Co-op Bookshop
-2024-08-07,$85.00,Dining,Birthday Dinner - The Rocks
-2024-08-08,$15.95,Coffee,Starbucks Double Shot
-2024-08-09,$67.80,Utilities,Electricity Bill - Origin Energy
-2024-08-10,$4.20,Coffee,Campus Cafe Cappuccino
-2024-08-11,$32.50,Transport,Uber to Airport
-2024-08-12,$156.00,Groceries,Woolworths Fortnightly Shop
-2024-08-13,$8.50,Coffee,Gloria Jeans Large Latte
-2024-08-14,$95.00,Entertainment,Movies and Dinner - Event Cinemas
-2024-08-15,$28.90,Dining,Lunch - Guzman y Gomez
-2024-08-16,-$12.50,Refund,Coffee Shop Refund
-2024-08-17,$45.00,Transport,Petrol - Caltex Woolworths
-2024-08-18,$73.20,Groceries,IGA Local Shop
-2024-08-19,$22.00,Entertainment,Netflix Monthly Subscription
-2024-08-20,$5.80,Coffee,Local Cafe Americano
-2024-08-21,$34.95,Dining,Thai Takeaway
-2024-08-22,$18.50,Transport,Bus Pass Weekly
-2024-08-23,$92.00,Utilities,Internet Bill - Telstra
-2024-08-24,$6.80,Coffee,University Coffee Cart
-2024-08-25,$145.60,Groceries,Monthly Bulk Shopping - Costco
+5/1/26,$12.50 ,Food,Campus lunch
+5/1/26,$4.00 ,Food,Coffee
+5/2/26,$8.99 ,Subscription,Spotify
+5/2/26,$15.00 ,Transport,Bus fare
+5/3/26,$25.00 ,Transport,Uber
+5/3/26,$65.00 ,Shopping,SHEIN order
+5/4/26,$18.50 ,Food,KFC
+5/4/26,$6.50 ,Food,Bubble tea
+5/5/26,($20.00),Refund,SHEIN refund
+5/5/26,$10.00 ,Mobile Data,Airtime
+5/6/26,$45.00 ,Groceries,Groceries
+5/6/26,$5.00 ,Food,Snacks
+5/7/26,$15.00 ,Education,Printing
+5/7/26,$120.00 ,Education,Textbook
+5/8/26,$18.00 ,Entertainment,Movies
+5/8/26,$7.50 ,Food,McDonalds
+5/9/26,$30.00 ,Beauty,Hair deposit
+5/9/26,$9.99 ,Subscription,Netflix
+5/10/26,$14.00 ,Food,Pizza
+5/10/26,$80.00 ,Shopping,Shoes
+5/11/26,$3.50 ,Food,Energy drink
+5/11/26,$50.00 ,Transport,Fuel
+5/12/26,$22.00 ,Entertainment,Bowling
+5/12/26,$13.00 ,Food,Sushi
+5/13/26,$40.00 ,Groceries,Weekly groceries
+,,,
+,,,
+,,,
+,,,
+,,,
